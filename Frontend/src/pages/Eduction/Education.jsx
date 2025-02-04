@@ -13,12 +13,12 @@ const Education = () => {
     <>
       <div className="container education">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
-          Eduction
+          Eduction Details  
         </h2>
         <hr />
-      <VerticalTimeline>
+      <VerticalTimeline >
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--work "
           contentStyle={{ background: "#f7e6e6", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid  black" }}
           date="2021 - 2025"

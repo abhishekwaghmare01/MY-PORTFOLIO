@@ -1,0 +1,23 @@
+.intern{
+    padding: 70px 0px;
+    margin:50px 0px;
+    margin-left: 120px;
+    background-color: #bebfbf7d;
+}
+
+.intern hr{
+    padding-left: 230px;
+    color: #138781; 
+    width: 400px;
+    margin: 12px 230px;
+} 
+
+.intern h2{
+    padding-right: 260px;
+    font-weight: bold;
+    color: #0d3f3f ;
+}
+.btn-cv{
+    background-color: #3baff3;
+    width: 110px;
+}

@@ -3,6 +3,7 @@ import About from "./pages/About/About.jsx";
 import Project from "./pages/Projects/Project.jsx";
 import Techstack from "./pages/TechStack/Techstack.jsx";
 import Education from "./pages/Eduction/Education.jsx";
+import Internship from "./pages/Internships/Internship.jsx";
 
 export default function App(){
   return(
@@ -13,6 +14,7 @@ export default function App(){
       <Techstack/>
       <Project/>
       <Education/>
+      <Internship/>
       </div>
     </>
   )
