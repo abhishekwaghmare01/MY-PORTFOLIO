@@ -1,6 +1,8 @@
 import Layout from "./components/Layouts/Layout.jsx";
 import About from "./pages/About/About.jsx";
+import Project from "./pages/Projects/Project.jsx";
 import Techstack from "./pages/TechStack/Techstack.jsx";
+import Education from "./pages/Eduction/Education.jsx";
 
 export default function App(){
   return(
@@ -9,6 +11,8 @@ export default function App(){
       <div className="container">
       <About/>
       <Techstack/>
+      <Project/>
+      <Education/>
       </div>
     </>
   )

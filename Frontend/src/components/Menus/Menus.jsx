@@ -40,11 +40,6 @@ const Menus = ({toggle}) => {
               <FcReadingEbook/>
               Education  
               </div>
-             
-              <div className="nav-link">
-              <FcVoicePresentation/>
-              Teastimonial 
-              </div>
               <div className="nav-link">
               <FcBusinessContact/>
               Contact 
@@ -81,10 +76,7 @@ const Menus = ({toggle}) => {
               
             </div>
            
-            <div className="nav-link">
-            <FcVoicePresentation title='Teastimonial'/>
-             
-            </div>
+            
             <div className="nav-link">
             <FcBusinessContact title='Contact'/>
              
