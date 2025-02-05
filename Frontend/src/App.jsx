@@ -4,6 +4,8 @@ import Project from "./pages/Projects/Project.jsx";
 import Techstack from "./pages/TechStack/Techstack.jsx";
 import Education from "./pages/Eduction/Education.jsx";
 import Internship from "./pages/Internships/Internship.jsx";
+import Contact from "./pages/Contact/Contact.jsx";
+
 
 export default function App(){
   return(
@@ -15,6 +17,8 @@ export default function App(){
       <Project/>
       <Education/>
       <Internship/>
+      <Contact/>
+     
       </div>
     </>
   )
