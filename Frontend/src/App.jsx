@@ -6,20 +6,18 @@ import Education from "./pages/Eduction/Education.jsx";
 import Internship from "./pages/Internships/Internship.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 
-
-export default function App(){
-  return(
+export default function App() {
+  return (
     <>
-      <Layout/>
+      <Layout />
       <div className="container">
-      <About/>
-      <Techstack/>
-      <Project/>
-      <Education/>
-      <Internship/>
-      <Contact/>
-     
+        <About />
+        <Techstack />
+        <Project />
+        <Education />
+        <Internship />
+        <Contact />
       </div>
     </>
-  )
+  );
 }
