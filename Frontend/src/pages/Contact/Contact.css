@@ -66,13 +66,15 @@ button:focus{
     outline-width: 0px;
 }
 .button{
-    background-color: #509e9e;
-    color: #050303;
+    background-color: #051822;
+    color: #faefef;
     width: 150px;
     border-radius: 5px;
     margin-left: 130px;
 }
 .button:hover{
-    background-color: #a0eeee;
-    transition: 1s;
+    background-color: #182d2d;
+    transition: 0.5s;
+    color: #e0e0e0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
