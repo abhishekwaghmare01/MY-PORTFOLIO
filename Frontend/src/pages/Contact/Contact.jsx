@@ -2,6 +2,8 @@ import React from "react";
 import './Contact.css';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
+import { FaWhatsappSquare } from "react-icons/fa";
+
 
 
 const Contact = () => {
@@ -12,7 +14,7 @@ const Contact = () => {
           <div className="row">
             <div className="col-md-6 con-lg-6 col-xl-6 col-sm-12 ">
               <div className="card1">
-                <div className="row border-line">
+                <div className="row border-line bgg">
                   <img
                     src="https://st3.depositphotos.com/1385248/14794/i/450/depositphotos_147947683-stock-photo-hands-with-contact-us-words.jpg"
                     alt="contact"
@@ -21,13 +23,14 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-lg-6">
-              <div className="card2 d-flex card border-0 px-4 py-3">
+            <div className="col-md-6 col-lg-6 bgg  ">
+              <div className="card2 d-flex card border-0 px-4 py-3 toppp">
                 <div className="row">
                   <div className="row">
                     <h4>Contact with
                     <FaLinkedin color="#2e619b" size={30} className="ms-2"/>
                     <FaGithubSquare  size={30} className="ms-2"/>
+                    <FaWhatsappSquare color="#15e16a" size={30} className="ms-2"/>
                     </h4>
                   </div>
 

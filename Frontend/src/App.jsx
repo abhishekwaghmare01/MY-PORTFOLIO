@@ -5,6 +5,7 @@ import Techstack from "./pages/TechStack/Techstack.jsx";
 import Education from "./pages/Eduction/Education.jsx";
 import Internship from "./pages/Internships/Internship.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
+import Footer from "./pages/Footer/Footer.jsx";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Education />
         <Internship />
         <Contact />
+        <Footer/>
       </div>
     </>
   );
