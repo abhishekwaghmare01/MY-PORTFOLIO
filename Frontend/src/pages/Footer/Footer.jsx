@@ -1,5 +1,12 @@
 import React from "react";
 import "./Footer.css";
+import { FaLocationDot } from "react-icons/fa6";
+import { MdWifiCalling3 } from "react-icons/md";
+import { MdMarkEmailRead } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaWhatsappSquare } from "react-icons/fa";
+import { FcAbout } from "react-icons/fc";
 
 const Footer = () => {
   return (
@@ -15,32 +22,41 @@ const Footer = () => {
           </p>
 
           <p className="footer-copy">
-            Copyright © 2025 <span> Abhishek Waghmare  </span>
-             All rights reserved
+            Copyright © 2025 <span> Abhishek Waghmare </span>
+            All rights reserved
           </p>
         </div>
         <div className="footer-center">
-          <div>
-            <i className="fa fa-map-marker"></i>
+          <div >
+            <FaLocationDot className="icon"/>
             <p>
-              <span>Nagpur</span>Maharashtra, India
+              <span>Nagpur, </span>Maharashtra, India
             </p>
           </div>
           <div>
-            <i className="fa fa-phone"></i>
-            <p>+91 965741****</p>
+            <MdWifiCalling3 className="icon" /> <p>+91 965741****</p>
           </div>
-          <i className="fa fa-envelope"></i>
-          <p><a href="#">abhiwaghmare3210@gmail.com</a></p>
+          <MdMarkEmailRead  className="icon"/>
+          <p>
+            <a href="#">abhiwaghmare3210@gmail.com</a>
+          </p>
         </div>
         <div className="footer-right">
-            <p className="footer-aboutme">
-                <span>About me</span>
-                <span>Abhishek Waghmare</span> i am a full stack web developer
-            </p>
+          <p className="footer-aboutme">
+            <span>About me <FcAbout/></span>
+            <span>Abhishek Waghmare</span> i am a full stack web developer
+          </p>
         </div>
         <div className="footer-icon">
-            <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#">
+            <FaLinkedin color="#2e619b" size={30} className="ms-2" />
+          </a>
+          <a href="#">
+            <FaGithubSquare size={30} className="ms-2" />
+          </a>
+          <a href="#">
+            <FaWhatsappSquare color="#15e16a" size={30} className="ms-2" />
+          </a>
         </div>
       </div>
     </>
