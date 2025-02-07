@@ -11,52 +11,56 @@ import { FcAbout } from "react-icons/fc";
 const Footer = () => {
   return (
     <>
-      <div className="footer-distributed">
-        <div className="footer-left">
-          <h3>
-            Abhishek <span>Developer</span>
-          </h3>
+      <div className="hole">
+        <div className="footer-distributed">
+          <div className="footer-left">
+            <h3>
+              Abhishek <span>Developer</span>
+            </h3>
 
-          <p className="footer-links">
-            <a href="#">Home</a>|<a href="#">About</a>|<a href="#">Contact</a>
-          </p>
+            <p className="footer-links">
+              <a href="#">Home</a>|<a href="#">About</a>|<a href="#">Contact</a>
+            </p>
 
-          <p className="footer-copy">
-            Copyright © 2025 <span> Abhishek Waghmare </span>
-            All rights reserved
-          </p>
-        </div>
-        <div className="footer-center">
-          <div >
-            <FaLocationDot className="icon"/>
-            <p>
-              <span>Nagpur, </span>Maharashtra, India
+            <p className="footer-copy">
+              Copyright © 2025 <span> Abhishek Waghmare </span>
+              All rights reserved
             </p>
           </div>
-          <div>
-            <MdWifiCalling3 className="icon" /> <p>+91 965741****</p>
+          <div className="footer-center">
+            <div>
+              <FaLocationDot className="icon" />
+              <p>
+                <span>Nagpur, </span>Maharashtra, India
+              </p>
+            </div>
+            <div>
+              <MdWifiCalling3 className="icon" /> <p>+91 965741****</p>
+            </div>
+            <MdMarkEmailRead className="icon" />
+            <p>
+              <a href="#">abhiwaghmare3210@gmail.com</a>
+            </p>
           </div>
-          <MdMarkEmailRead  className="icon"/>
-          <p>
-            <a href="#">abhiwaghmare3210@gmail.com</a>
-          </p>
-        </div>
-        <div className="footer-right">
-          <p className="footer-aboutme">
-            <span>About me <FcAbout/></span>
-            <span>Abhishek Waghmare</span> i am a full stack web developer
-          </p>
-        </div>
-        <div className="footer-icon">
-          <a href="#">
-            <FaLinkedin color="#2e619b" size={30} className="ms-2" />
-          </a>
-          <a href="#">
-            <FaGithubSquare size={30} className="ms-2" />
-          </a>
-          <a href="#">
-            <FaWhatsappSquare color="#15e16a" size={30} className="ms-2" />
-          </a>
+          <div className="footer-right">
+            <p className="footer-aboutme">
+              <span>
+                About me <FcAbout />
+              </span>
+              <span>Abhishek Waghmare</span> i am a full stack web developer
+            </p>
+            <div className="footer-icon">
+              <a href="#">
+                <FaLinkedin color="#2e619b" size={30} className="ms-2" />
+              </a>
+              <a href="#">
+                <FaGithubSquare size={30} className="ms-2" />
+              </a>
+              <a href="#">
+                <FaWhatsappSquare color="#15e16a" size={30} className="ms-2" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </>
