@@ -68,9 +68,15 @@ button:focus{
 .button{
     background-color: #051822;
     color: #faefef;
-    width: 150px;
+    width: 160px;
     border-radius: 5px;
     margin-left: 130px;
+}
+.sizeee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
 }
 .button:hover{
     background-color: #182d2d;

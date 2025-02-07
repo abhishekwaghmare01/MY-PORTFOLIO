@@ -7,6 +7,7 @@ import Internship from "./pages/Internships/Internship.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import Footer from "./pages/Footer/Footer.jsx";
 
+
 export default function App() {
   return (
     <>

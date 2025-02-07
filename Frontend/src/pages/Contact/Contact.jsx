@@ -63,9 +63,9 @@ const Contact = () => {
                       className="mb-3"
                     />
                   </div>
-                  <div className="row px-3">
-                    <button className="button" type="submit">
-                      SEND MESSAGE
+                  <div className="row px-3 ">
+                    <button className="button " type="submit">
+                     <p className="sizeee">SEND MESSAGE</p> 
                     </button>
                   </div>
                 </div>
