@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
       <div className="hole">
-        <div className="footer-distributed">
+        <div className="container footer-distributed">
           <div className="footer-left">
             <h3>
               Abhishek <span>Developer</span>
@@ -23,24 +23,25 @@ const Footer = () => {
             </p>
 
             <p className="footer-copy">
-              Copyright © 2025 <span> Abhishek Waghmare </span>
-              All rights reserved
+              Copyright © 2025 Abhishek Waghmare All rights reserved
             </p>
           </div>
           <div className="footer-center">
-            <div>
+            <div className="see">
               <FaLocationDot className="icon" />
               <p>
                 <span>Nagpur, </span>Maharashtra, India
               </p>
             </div>
-            <div>
+            <div className="see">
               <MdWifiCalling3 className="icon" /> <p>+91 965741****</p>
             </div>
-            <MdMarkEmailRead className="icon" />
-            <p>
-              <a href="#">abhiwaghmare3210@gmail.com</a>
-            </p>
+            <div className="see">
+              <MdMarkEmailRead className="icon" />
+              <p>
+                <a href="#">abhiwaghmare3210@gmail.com</a>
+              </p>
+            </div>
           </div>
           <div className="footer-right">
             <p className="footer-aboutme">

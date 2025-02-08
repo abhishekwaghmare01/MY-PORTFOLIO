@@ -23,11 +23,11 @@ footer{
     widows: 100%;
     text-align: left;
     font: bold 16px sans-serif;
-    padding-left: 100px ;
-    padding: 50px 50px 60px 50px;
-    margin-left: 150px;
-    margin-bottom: 30px;
-    margin-top: 80px;
+    padding-left: 80px ;
+    padding: 50px 60px 60px 50px;
+    margin-left: 120px;
+    padding-bottom: 35px;
+    margin-top: 60px;
     color: #fff;
     border-radius: 20px 0px 20px 0px;
 }
@@ -61,17 +61,30 @@ footer{
 }
 .footer-distributed .footer-copy{
     color: #8f9296;
-    font-size: 14px;
+    font-size: 14px;    
     font-weight: normal;
     margin: 0;
 }
+.footer-distributed .footer-left .footer-copy { 
+    font-size: 11.50px;
+}
+.footer-distributed .footer-left h3{
+    font-size: 30px;
+}
+
 .footer-distributed .footer-center{
     width: 35%;
+}
+.footer-distributed .footer-center {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 0px;
+    padding-left: 20px;
 }
 .footer-distributed .footer-center .icon{
     background-color: #33383b;
     color: #ffff;
-    font-size: 25px;
+    font-size: 20px;
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -80,8 +93,14 @@ footer{
     margin: 10px 15px;
     vertical-align: middle;
 }
+.footer-distributed .footer-center  .see{
+    font-size: 12px;
+}
+.footer-distributed .footer-center  .see p .icon{
+    font-size: 100px;
+}
 .footer-distributed .footer-center .icon{
-    font-size: 17px;
+    font-size: 14px;
     line-height: 38px;
 }
 .footer-distributed .footer-center p{
@@ -90,6 +109,7 @@ footer{
     vertical-align: middle;
     margin: 0;
 }
+
 .footer-distributed .footer-center p span{
     display: block;
     font-weight:normal;
@@ -102,7 +122,7 @@ footer{
 }
 .footer-distributed .footer-right{
     width: 30%;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 .footer-distributed .footer-copy{
     line-height: 20px;
@@ -144,6 +164,8 @@ footer{
 .footer-links a:hover{
     color: #3f71ea;
 }
+
+
 @media(max-width: 880px) {
     .footer-distributed .footer-links, .footer-distributed .footer-center, .footer-distributed .footer-right{
         display: block;

@@ -6,6 +6,7 @@ import Education from "./pages/Eduction/Education.jsx";
 import Internship from "./pages/Internships/Internship.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import Footer from "./pages/Footer/Footer.jsx";
+import ScrollToTop from "react-scroll-to-top";
 
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
         <Contact />
         <Footer/>
       </div>
+      <ScrollToTop smooth />
     </>
   );
 }
