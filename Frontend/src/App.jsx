@@ -8,7 +8,6 @@ import Contact from "./pages/Contact/Contact.jsx";
 import Footer from "./pages/Footer/Footer.jsx";
 import ScrollToTop from "react-scroll-to-top";
 
-
 export default function App() {
   return (
     <>
@@ -20,9 +19,13 @@ export default function App() {
         <Education />
         <Internship />
         <Contact />
-        <Footer/>
+        <Footer />
       </div>
-      <ScrollToTop smooth />
+      <ScrollToTop
+        smooth
+        color="#f29f67"
+        style={{ backgroundColor:"rgb(31, 30, 26)", borderRadius: "80px" }}
+      />
     </>
   );
 }
