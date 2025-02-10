@@ -21,3 +21,20 @@
     margin-left: 20px;
     width: 110px;
 }
+
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #3b3939;
+    margin-top: 20px;
+    text-align: center;
+    right: 0;
+    position: fixed;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+}
