@@ -5,8 +5,6 @@ import {
   FcAbout,
   FcBiotech,
   FcBusinessContact,
-  FcConferenceCall,
-  FcContacts,
   FcHome,
   FcPortraitMode,
   FcReadingEbook,
