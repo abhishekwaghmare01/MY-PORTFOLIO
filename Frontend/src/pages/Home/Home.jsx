@@ -5,7 +5,7 @@ import abhiCV from '../../assets/docs/abhiCV.pdf';
 
 const Home = () => (
   <>
-    <div className="container-fluid home-container">
+    <div className="container-fluid home-container " id="home">
       <div className="container home-content">
         <h2>𝐇𝐢 👋 𝐈'𝐦 𝐚</h2>
         <h1>
