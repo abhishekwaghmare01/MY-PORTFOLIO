@@ -9,7 +9,7 @@ import { FaWhatsappSquare } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
-      <div className="container contact">
+      <div className="container contact" id="contact">
         <div className="card card0 border-0">
           <div className="row">
             <div className="col-md-6 con-lg-6 col-xl-6 col-sm-12 ">

@@ -43,56 +43,77 @@ const Menus = ({ toggle }) => {
                 </Link>
               </div>
               <div className="nav-link">
-                <Link to="home"
+                <Link
+                  to="about"
                   spy={true}
                   smooth={true}
                   offset={-100}
-                  duration={100}>
-                <FcAbout />
-                About
+                  duration={100}
+                >
+                  <FcAbout />
+                  About
                 </Link>
-                
               </div>
               <div className="nav-link">
-                <Link to="home"
+                <Link
+                  to="tech-stack"
                   spy={true}
                   smooth={true}
                   offset={-100}
-                  duration={100}>
-                <FcPortraitMode />
-                Internships
+                  duration={100}
+                >
+                  <FcBiotech />
+                  Tech Stack
                 </Link>
-               
               </div>
               <div className="nav-link">
-                <Link to="home"
+                <Link
+                  to="project"
                   spy={true}
                   smooth={true}
                   offset={-100}
-                  duration={100}>
-                <FcVideoProjector />
-                Projects
+                  duration={100}
+                >
+                  <FcVideoProjector />
+                  Projects
                 </Link>
-               
               </div>
               <div className="nav-link">
-                <Link  to="home"
+                <Link
+                  to="education"
                   spy={true}
                   smooth={true}
                   offset={-100}
-                  duration={100}>
-                <FcBiotech />
-                Tech Stack
+                  duration={100}
+                >
+                  <FcReadingEbook />
+                  Education
                 </Link>
-                
               </div>
               <div className="nav-link">
-                <FcReadingEbook />
-                Education
+                <Link
+                  to="internships"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcPortraitMode />
+                  Internships
+                </Link>
               </div>
+
               <div className="nav-link">
-                <FcBusinessContact />
-                Contact
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcBusinessContact />
+                  Contact
+                </Link>
               </div>
             </div>
           </div>

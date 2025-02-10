@@ -12,7 +12,7 @@ import "react-vertical-timeline-component/style.min.css";
 const Internship = () => {
   return (
     <>
-      <div className="container intern">
+      <div className="container intern" id="internships">
         <div className="intern-exp">
           <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
             Inetrnships

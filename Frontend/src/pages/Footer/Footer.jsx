@@ -11,7 +11,7 @@ import { FcAbout } from "react-icons/fc";
 const Footer = () => {
   return (
     <>
-      <div className="hole">
+      <div className="hole" >
         <div className="container footer-distributed">
           <div className="footer-left">
             <h3>
