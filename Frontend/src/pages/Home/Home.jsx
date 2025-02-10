@@ -4,17 +4,19 @@ import "./Home.css";
 import Typewriter from "typewriter-effect";
 import abhiCV from "../../assets/docs/abhiCV.pdf";
 import { BsMoonStarsFill } from "react-icons/bs";
-import { GiSunflower } from "react-icons/gi";
+import { FaSun } from "react-icons/fa";
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
+  //handle theme
+  const handleTheme = () => {
+    setTheme((prevState) => (prevState === "light" ? "dark" : "light"));
+  };
   return (
     <>
       <div className="container-fluid home-container " id="home">
-        <div className="theme-btn">
-          {
-            theme === 'light' ? (<BsMoonStarsFill/>):(< >)
-          }
+        <div className="theme-btn" onClick={handleTheme}>
+          {theme === "light" ? <FaSun /> : <BsMoonStarsFill />}
         </div>
         <div className="container home-content">
           <h2>𝐇𝐢 👋 𝐈'𝐦 𝐚</h2>

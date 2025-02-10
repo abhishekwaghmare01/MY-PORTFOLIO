@@ -28,8 +28,9 @@
     justify-content: center;
     height: 50px;
     width: 50px;
-    background-color: #3b3939;
-    margin-top: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
     text-align: center;
     right: 0;
     position: fixed;
@@ -38,3 +39,4 @@
     border-bottom-left-radius: 10px;
     z-index: 1;
 }
+
