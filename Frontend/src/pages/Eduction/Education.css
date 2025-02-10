@@ -2,7 +2,8 @@
    padding-top: 10px;
    padding: 10px;
    margin: 60px 120px;
-   background-color: rgb(218, 205, 205);
+   background-color: rgba(238, 226, 226, 0.514);
+   box-shadow: 0px 4px 8px 0px #757575;
   }
   
   .education hr {
@@ -22,4 +23,8 @@
   
   .education .vertical-timeline-element-subtitle {
     color: #1e1e2c;
+  }
+
+  #dark .education{
+    background-color: #e6d9d9;
   }

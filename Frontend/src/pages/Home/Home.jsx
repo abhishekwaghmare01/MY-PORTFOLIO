@@ -18,7 +18,11 @@ const Home = () => {
         <div className="theme-btn" onClick={handleTheme}>
           {theme === "light" ? <FaSun /> : <BsMoonStarsFill />}
         </div>
-        <div className="container home-content">
+        <div
+          className="container home-content"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           <h2>𝐇𝐢 👋 𝐈'𝐦 𝐚</h2>
           <h1>
             <Typewriter
