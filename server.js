@@ -13,9 +13,7 @@ app.use(cors());
 app.use(express.json())
 
 //routes
-app.get('/', (req, res) =>{
-    res.send('<h1>WelCome to Server</h1>')
-})
+app.use('/api/v1/portfolio', require('./routes/routesPortfolio') );
 
 //port
 const PORT = process.env.PORT || 8080;
