@@ -8,12 +8,14 @@ import Contact from "./pages/Contact/Contact.jsx";
 import Footer from "./pages/Footer/Footer.jsx";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext.jsx";
+import MobileNav from "./components/mobileNav/mobileNav.jsx";
 
 export default function App() {
   const [theme] = useTheme();
   return (
     <>
       <div id={theme}>
+        <MobileNav />
         <Layout />
         <div className="container">
           <About />

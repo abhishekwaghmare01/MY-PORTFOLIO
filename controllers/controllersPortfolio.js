@@ -1,6 +1,9 @@
 const sendEmailColtroller = (req, res) =>{
         try {
-                
+                return res.status(200).send({
+                    success:true,
+                    message:"Your Message Send Successfully"
+                })
             
         } catch (err) {
             console.log(err);
