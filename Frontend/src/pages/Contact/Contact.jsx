@@ -23,7 +23,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-lg-6 bgg  ">
+            <div className="col-md-6 col-lg-6 bgg  xxx ">
               <div className="card2 d-flex card border-0 px-4 py-3 toppp">
                 <div className="row">
                   <div className="row">

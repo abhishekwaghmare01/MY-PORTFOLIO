@@ -15,8 +15,9 @@ const Footer = () => {
         <div className="container footer-distributed">
           <div className="footer-left">
             <h3>
-              Abhishek <span>Developer</span>
+              Abhishek <span> Developer</span>
             </h3>
+            
 
             <p className="footer-links">
               <a href="#">Home</a>|<a href="#">About</a>|<a href="#">Contact</a>
