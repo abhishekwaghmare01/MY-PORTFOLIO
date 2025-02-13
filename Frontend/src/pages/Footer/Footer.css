@@ -186,9 +186,7 @@ footer{
 
      .footer-distributed h3{
         display: flex;
-        justify-content: center;
-        margin-left: 30px;
-        
+        justify-content: center; 
      }
      .footer-distributed .footer-left {
         width: 100%;
@@ -198,5 +196,4 @@ footer{
         margin-left: 100px;
         margin-bottom: 10px;
      }
- 
    }
