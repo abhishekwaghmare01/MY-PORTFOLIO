@@ -4,6 +4,9 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 
+//handel submit button
+
+
 const Contact = () => {
   const [name, setName] = useState(" ");
   const [email, setEmail] = useState(" ");
@@ -57,7 +60,7 @@ const Contact = () => {
                       placeholder="Enter your Good Name"
                       className="mb-3"
                       value={name}
-                      onChange={(e)=> setName(e.target.value)}
+                      onChange={(e) => setName(e.target.value)}
                     />
                   </div>
                   <div className="row px-3">
@@ -67,6 +70,7 @@ const Contact = () => {
                       placeholder="Enter your E-mail Address"
                       className="mb-3"
                       value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                   <div className="row px-3">
@@ -76,6 +80,7 @@ const Contact = () => {
                       placeholder="Write your message"
                       className="mb-3"
                       value={msg}
+                      onChange={(e) => setMsg(e.target.value)}
                     />
                   </div>
                   <div className="row px-3 ">
