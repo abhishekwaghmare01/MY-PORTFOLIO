@@ -3,6 +3,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "mailboxlayer-node-client": "^1.0.13",
+    "nodemailer": "^6.10.0",
     "typewriter-effect": "^2.21.0"
   },
   "name": "my-portfolio",
