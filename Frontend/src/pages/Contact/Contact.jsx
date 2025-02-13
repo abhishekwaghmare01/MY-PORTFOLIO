@@ -1,15 +1,21 @@
-import React from "react";
-import './Contact.css';
+import React, { useState } from "react";
+import "./Contact.css";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 
-
-
 const Contact = () => {
+  const [name, setName] = useState(" ");
+  const [email, setEmail] = useState(" ");
+  const [msg, setMsg] = useState(" ");
   return (
     <>
-      <div className="container contact" id="contact" data-aos="zoom-in-left" data-aos-duration="1500">
+      <div
+        className="container contact"
+        id="contact"
+        data-aos="zoom-in-left"
+        data-aos-duration="1500"
+      >
         <div className="card card0 border-0">
           <div className="row">
             <div className="col-md-6 con-lg-6 col-xl-6 col-sm-12 ">
@@ -27,10 +33,15 @@ const Contact = () => {
               <div className="card2 d-flex card border-0 px-4 py-3 toppp">
                 <div className="row">
                   <div className="row">
-                    <h4>Contact with
-                    <FaLinkedin color="#2e619b" size={30} className="ms-2"/>
-                    <FaGithubSquare  size={30} className="ms-2"/>
-                    <FaWhatsappSquare color="#15e16a" size={30} className="ms-2"/>
+                    <h4>
+                      Contact with
+                      <FaLinkedin color="#2e619b" size={30} className="ms-2" />
+                      <FaGithubSquare size={30} className="ms-2" />
+                      <FaWhatsappSquare
+                        color="#15e16a"
+                        size={30}
+                        className="ms-2"
+                      />
                     </h4>
                   </div>
 
@@ -45,6 +56,8 @@ const Contact = () => {
                       name="name"
                       placeholder="Enter your Good Name"
                       className="mb-3"
+                      value={name}
+                      onChange={(e)=> setName(e.target.value)}
                     />
                   </div>
                   <div className="row px-3">
@@ -53,6 +66,7 @@ const Contact = () => {
                       name="email"
                       placeholder="Enter your E-mail Address"
                       className="mb-3"
+                      value={email}
                     />
                   </div>
                   <div className="row px-3">
@@ -61,11 +75,12 @@ const Contact = () => {
                       name="msg"
                       placeholder="Write your message"
                       className="mb-3"
+                      value={msg}
                     />
                   </div>
                   <div className="row px-3 ">
                     <button className="button " type="submit">
-                     <p className="sizeee">SEND MESSAGE</p> 
+                      <p className="sizeee">SEND MESSAGE</p>
                     </button>
                   </div>
                 </div>
