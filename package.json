@@ -5,6 +5,7 @@
     "express": "^4.21.2",
     "mailboxlayer-node-client": "^1.0.13",
     "nodemailer": "^6.10.0",
+    "react-toastify": "^11.0.3",
     "typewriter-effect": "^2.21.0"
   },
   "name": "my-portfolio",
