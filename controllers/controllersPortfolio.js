@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
-    service: 'gmail', // Use Gmail, Outlook, etc.
+   
     auth: {
         api_key: process.access_key
 
