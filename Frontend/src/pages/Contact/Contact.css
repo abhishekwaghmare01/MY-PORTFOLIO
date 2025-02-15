@@ -99,6 +99,14 @@ button:focus{
        padding-top: 10px;
        
      }
-   
-    
+     .sizeee{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8px;
+        font-size: 14px;
+        margin-bottom: 10px;
+        
+    }
+
    }
