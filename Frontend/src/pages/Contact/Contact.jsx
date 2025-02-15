@@ -1,18 +1,32 @@
-import React, { useState } from "react";
+//import React, { useState } from "react";
+//import axios from "axios";
 import "./Contact.css";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithubSquare } from "react-icons/fa";
-import { FaWhatsappSquare } from "react-icons/fa";
-
-//handel submit button
-
+//import { toast } from "react-toastify";
+import { FaLinkedin, FaGithubSquare, FaWhatsappSquare } from "react-icons/fa";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const [name, setName] = useState(" ");
-  const [email, setEmail] = useState(" ");
-  const [msg, setMsg] = useState(" ");
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_wany3st", "template_08vo47k", form.current, {
+        publicKey: "o6OPZ5z6fCf0ey9AL",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
-    <>
+    <form ref={form} onSubmit={sendEmail}>
       <div
         className="container contact"
         id="contact"
@@ -21,7 +35,7 @@ const Contact = () => {
       >
         <div className="card card0 border-0">
           <div className="row">
-            <div className="col-md-6 con-lg-6 col-xl-6 col-sm-12 ">
+            <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
               <div className="card1">
                 <div className="row border-line bgg">
                   <img
@@ -32,60 +46,55 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-lg-6 bgg  xxx ">
+            <div className="col-md-6 col-lg-6 bgg xxx">
               <div className="card2 d-flex card border-0 px-4 py-3 toppp">
                 <div className="row">
-                  <div className="row">
-                    <h4>
-                      Contact with
-                      <FaLinkedin color="#2e619b" size={30} className="ms-2" />
-                      <FaGithubSquare size={30} className="ms-2" />
-                      <FaWhatsappSquare
-                        color="#15e16a"
-                        size={30}
-                        className="ms-2"
-                      />
-                    </h4>
-                  </div>
+                  <h4>
+                    Contact with
+                    <FaLinkedin color="#2e619b" size={30} className="ms-2" />
+                    <FaGithubSquare size={30} className="ms-2" />
+                    <FaWhatsappSquare
+                      color="#15e16a"
+                      size={30}
+                      className="ms-2"
+                    />
+                  </h4>
 
                   <div className="row px-3 mb-4">
                     <div className="line" />
                     <small className="or text-center">OR</small>
                     <div className="line" />
                   </div>
-                  <div className="row px-3 ">
+
+                  <div className="row px-3">
                     <input
                       type="text"
-                      name="name"
+                      name="from_name"
                       placeholder="Enter your Good Name"
                       className="mb-3"
-                      value={name}
-                      onChange={(e) => setName(e.target.value)}
                     />
                   </div>
+
                   <div className="row px-3">
                     <input
                       type="email"
-                      name="email"
+                      name="from_name"
                       placeholder="Enter your E-mail Address"
                       className="mb-3"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
+
                   <div className="row px-3">
                     <textarea
-                      type="text"
-                      name="msg"
+                      name="message"
                       placeholder="Write your message"
                       className="mb-3"
-                      value={msg}
-                      onChange={(e) => setMsg(e.target.value)}
                     />
                   </div>
-                  <div className="row px-3 ">
-                    <button className="button " type="submit">
-                      <p className="sizeee">SEND MESSAGE</p>
+
+                  <div className="row px-3">
+                    <button  className="button sizeee" type="submit" value="Send">
+                      SEND MESSAGE
                     </button>
                   </div>
                 </div>
@@ -94,7 +103,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </>
+    </form>
   );
 };
 
