@@ -97,7 +97,7 @@ button:focus{
        padding: 0;
        margin-top: 30px;
        padding-top: 10px;
-       
+   
      }
      .sizeee{
         display: flex;
@@ -106,7 +106,7 @@ button:focus{
         margin-top: 8px;
         font-size: 14px;
         margin-bottom: 10px;
-        
+        margin-left: 90px;
     }
 
    }
