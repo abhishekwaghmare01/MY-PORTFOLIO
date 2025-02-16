@@ -31,11 +31,7 @@ export default function App() {
           <Footer />
         </div>
       </div>
-      <ScrollToTop
-        smooth
-        color="#f29f67"
-        style={{ backgroundColor: "rgb(31, 30, 26)", borderRadius: "80px" }}
-      />
+      
     </>
   );
 }
