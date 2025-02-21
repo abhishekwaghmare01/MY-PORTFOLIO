@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import abhiCV from "../../assets/docs/abhiCV.pdf";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { FaSun } from "react-icons/fa";
+import Vid from "/src/Images/black.mp4";
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
@@ -15,6 +16,7 @@ const Home = () => {
   return (
     <>
       <div className="container-fluid home-container " id="home">
+       
         <div className="theme-btn" onClick={handleTheme}>
           {theme === "light" ? <FaSun /> : <BsMoonStarsFill />}
         </div>
