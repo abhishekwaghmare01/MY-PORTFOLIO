@@ -1,5 +1,7 @@
 import React from "react";
 import "./About.css";
+//import Img from "./Images/Profile_photo.jpg";
+import Img from "/src/Images/Profile_photo.jpg";
 
 const About = () => {
   return (
@@ -16,7 +18,7 @@ const About = () => {
             className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img"
             data-aos="zoom-in"
           >
-           <img src="" alt="" />
+            <img src={Img} alt="Profile" />
           </div>
           <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
             <h1>About me</h1>
