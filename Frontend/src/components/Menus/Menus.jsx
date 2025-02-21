@@ -1,5 +1,6 @@
 import React from "react";
 import "./Menus.css";
+import Img from "/src/Images/Profile_photo.jpg";
 
 import {
   FcAbout,
@@ -20,10 +21,7 @@ const Menus = ({ toggle }) => {
       {toggle ? (
         <>
           <div className="nav-profile-pic">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRvQMZxJH8AaKnsT3QDEwrVJZwpTq8myTfLA&s"
-              alt="Profile Pic"
-            />
+            <img src={Img} alt="Profile" />
           </div>
 
           <div className="nav-items">
