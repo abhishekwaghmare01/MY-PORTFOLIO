@@ -16,10 +16,7 @@ const About = () => {
             className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img"
             data-aos="zoom-in"
           >
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRvQMZxJH8AaKnsT3QDEwrVJZwpTq8myTfLA&s"
-              alt="profile_pic"
-            />
+           <img src="" alt="" />
           </div>
           <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
             <h1>About me</h1>
