@@ -2,6 +2,14 @@
     height: 280px;
     color: white;
     padding-left: 140px;
+    
+    
+}
+
+.all{
+  z-index: -1;
+  width: 1%;
+  height: 1px;
 }
 .home-content h2{
     padding: 5px;
