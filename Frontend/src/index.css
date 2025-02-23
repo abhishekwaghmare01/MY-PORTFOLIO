@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "EB Garamond", serif;
+  
+ 
 }
 
 /* For Dark Mode */
 #dark{
-  background-color: #000000;
+  background-color: #201f1f;
   color: white;
 }
 
