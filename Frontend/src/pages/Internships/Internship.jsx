@@ -2,7 +2,7 @@ import React from "react";
 
 import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 import "./Internship.css";
-import abhiCV from '../../assets/docs/abhiCV.pdf';
+import abhiCV from "../../assets/docs/abhiCV.pdf";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -25,61 +25,70 @@ const Internship = () => {
             dateText="11/2010 – Present"
             style={{ color: "#e86971" }}
           >
-            <h3>Title, Company</h3>
-            <h4>Subtitle</h4>
+            <div className="col" style={{color:"white"}}>
+
+            <h3 >Full Stck Web Developer</h3>
+            <h5 style={{}}>Zidio Development PVT. LTD.</h5>
             <p>
-              Est incididunt sint eu minim dolore mollit velit velit commodo ex
-              nulla exercitation.
+            Developed a MERN-based Certificate Verification System with seamless front-end and back-end integration.
+
             </p>
             <p>
-              Est incididunt sint eu minim dolore mollit velit velit commodo ex
-              nulla exercitation.
+            Managed MongoDB databases for efficient storage and retrieval.
             </p>
             <p>
-              Est incididunt sint eu minim dolore mollit velit velit commodo ex
-              nulla exercitation.
+            Ensured data security and integrity in all projects.
             </p>
-            <a className="btn btn-cv " href={abhiCV} download="AbhishekCV.pdf">Certificate</a>
+            <a className="btn btn-cv " href={abhiCV} download="AbhishekCV.pdf">
+              Certificate
+            </a>
+            
+            </div>
           </TimelineItem>
           <TimelineItem
             key="001"
             dateText="11/2010 – Present"
             style={{ color: "#e86971" }}
           >
-            <h3>Title, Company</h3>
-            <h4>Subtitle</h4>
+            <div className="col" style={{color:"white"}}>
+            <h3>Web Developer</h3>
+            <h4>YHills Edutech Pvt. Ltd.</h4>
             <p>
-              Est incididunt sint eu minim dolore mollit velit velit commodo ex
-              nulla exercitation.
+            Created a responsive portfolio using HTML, CSS, and JavaScript for cross-device functionality.
+
             </p>
             <p>
-              Est incididunt sint eu minim dolore mollit velit velit commodo ex
-              nulla exercitation.
+            Optimized performance for fast loading and better user experience.
             </p>
             <p>
-              Est incididunt sint eu minim dolore mollit velit velit commodo ex
-              nulla exercitation.
+            Deployed the portfolio online to showcase skills and projects.
             </p>
+            <a className="btn btn-cv " href={abhiCV} download="AbhishekCV.pdf">
+              Certificate
+            </a>
+            </div>
           </TimelineItem>
           <TimelineItem
             key="001"
             dateText="11/2010 – Present"
             style={{ color: "#e86971" }}
           >
-            <h3>Title, Company</h3>
-            <h4>Subtitle</h4>
+            <div className="col" style={{color:"white"}}>
+            <h3>Web Developer</h3>
+            <h4>Cloud Cluster Pvt. Ltd.</h4>
             <p>
-              Est incididunt sint eu minim dolore mollit velit velit commodo ex
-              nulla exercitation.
+            Built a responsive Amazon clone using HTML, CSS, and JavaScript with cross-device functionality.
             </p>
             <p>
-              Est incididunt sint eu minim dolore mollit velit velit commodo ex
-              nulla exercitation.
+            Enhanced performance for fast loading and better user experience.
             </p>
             <p>
-              Est incididunt sint eu minim dolore mollit velit velit commodo ex
-              nulla exercitation.
+            Deployed the project online to showcase skills.
             </p>
+            <a className="btn btn-cv " href={abhiCV} download="AbhishekCV.pdf">
+              Certificate
+            </a>
+            </div>
           </TimelineItem>
         </Timeline>
       </div>
