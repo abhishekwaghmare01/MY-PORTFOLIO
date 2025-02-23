@@ -2,13 +2,17 @@
     margin: 20px 0px;
     padding: 20px;
     margin-left: 200px;
-
+    background: #dbd6d6;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+   
 }
 .about-img img{
     border-radius: 10px;
     width: 90%;
     height: 350px;
+    margin-top: 27px;
+    margin-left: 20px;
 
 }
 .about-content {
