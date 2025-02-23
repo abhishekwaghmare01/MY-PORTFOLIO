@@ -9,7 +9,7 @@ const ThemeContext = createContext();
 // to create provider
 
 const ThemeProvider = ({ children }) => {
-  const [theme, useTheme] = useState("light");
+  const [theme, useTheme] = useState("dark");
   return (
     <ThemeContext.Provider value={[theme, useTheme]}>
       {children}
