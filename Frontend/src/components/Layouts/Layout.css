@@ -1,9 +1,7 @@
 .sidebar-section{
-    display: flex;
-    background-color: black;
-
+   display: flex;
+    
 }
-
 .sidebar{
     height: 100vh;
     background-color: #0e181a;
