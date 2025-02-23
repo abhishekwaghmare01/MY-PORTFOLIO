@@ -15,9 +15,17 @@ const Home = () => {
   };
   return (
     <>
-      <div className="container-fluid home-container " id="home">
-        
-       
+    <div className="all">
+      <video src={Vid} style={{height:"45vh", position:""}}></video>
+    </div>
+    <div className="all">
+      <video src={Vid} style={{height:"45vh", position:""}}></video>
+    </div>
+    <div className="all">
+      <video src={Vid} style={{height:"45vh", position:""}}></video>
+    </div>
+      <div className="container-fluid home-container  " id="home">
+      
         <div className="theme-btn" onClick={handleTheme}>
           {theme === "light" ? <FaSun /> : <BsMoonStarsFill />}
         </div>
