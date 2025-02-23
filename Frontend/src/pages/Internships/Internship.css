@@ -16,14 +16,14 @@
 .intern h2{
     padding-right: 260px;
     font-weight: bold;
-    color: #0d3f3f ;
+    color: #d3e8e8 ;
 }
 .btn-cv{
     background-color: #3baff3;
     width: 110px;
 }
 #dark .intern{
-    background-color: #e6d9d9;
+    background-color: #a28d8d2b;
 }
 
 @media (max-width:600px) {

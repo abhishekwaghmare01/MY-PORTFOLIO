@@ -18,10 +18,11 @@ export default function App() {
   return (
     <>
       <div id={theme}>
+        <ScrollToTop/>
         <ToastContainer />
         <MobileNav />
         <Layout />
-        <div className="container">
+        <div className="container bg">
           <About />
           <Techstack />
           <Project />

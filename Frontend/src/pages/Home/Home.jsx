@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 import abhiCV from "../../assets/docs/abhiCV.pdf";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { FaSun } from "react-icons/fa";
-import Vid from "/src/Images/black.mp4";
+
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
@@ -15,15 +15,7 @@ const Home = () => {
   };
   return (
     <>
-    <div className="all">
-      <video src={Vid} style={{height:"45vh", position:""}}></video>
-    </div>
-    <div className="all">
-      <video src={Vid} style={{height:"45vh", position:""}}></video>
-    </div>
-    <div className="all">
-      <video src={Vid} style={{height:"45vh", position:""}}></video>
-    </div>
+    
       <div className="container-fluid home-container  " id="home">
       
         <div className="theme-btn" onClick={handleTheme}>
