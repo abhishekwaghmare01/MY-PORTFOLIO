@@ -1,6 +1,8 @@
 .sidebar-section{
    display: flex;
-    
+   background-image: url(https://as1.ftcdn.net/v2/jpg/03/23/92/96/1000_F_323929694_BKkGKE8dWIWqpG91tzYFC3GHPNdjg6mh.jpg);
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
 }
 .sidebar{
     height: 100vh;
