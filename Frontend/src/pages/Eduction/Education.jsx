@@ -19,7 +19,7 @@ const Education = () => {
       <VerticalTimeline >
         <VerticalTimelineElement
           className="vertical-timeline-element--work "
-          contentStyle={{ background: "#f7e6e6", color: "black" }}
+          contentStyle={{ background: "#f7e6e6", color: "white" }}
           contentArrowStyle={{ borderRight: "7px solid  black" }}
           date="2021 - 2025"
           iconStyle={{ background: "#138781", color: "#fff" }}
@@ -27,14 +27,14 @@ const Education = () => {
         >
           <h3 className="vertical-timeline-element-title">Bachelor of Technology</h3>
           <h6 className="vertical-timeline-element-subtitle">Priyadarshini college of Engineering, Nagpur</h6>
-          <p>
+          <p style={{color:"black"}}>
           Specialization : Electronics & Communication Engg.
           </p>
-          <p>CGPA : 7.5</p>
+          <p style={{color:"black"}}>CGPA : 7.5</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "#f7e6e6", color: "black" }}
+          contentStyle={{ background: "#f7e6e6", color: "white" }}
           contentArrowStyle={{ borderRight: "7px solid  black" }}
           date="2019 - 2021"
           iconStyle={{ background: "#138781", color: "#fff" }}
@@ -42,10 +42,10 @@ const Education = () => {
         >
           <h3 className="vertical-timeline-element-title">Higher Secondary Certificate</h3>
           <h6 className="vertical-timeline-element-subtitle">Maharashtra Vidyalaya khaperkheda, Nagpur</h6>
-          <p>
+          <p style={{color:"black"}}>
           Science Specialization :  PCMB 
           </p>
-          <p>Percentage : 74.67%</p>
+          <p style={{color:"black"}}>Percentage : 74.67%</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
       </div>
