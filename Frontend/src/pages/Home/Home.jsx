@@ -26,7 +26,7 @@ const Home = () => {
           data-aos="fade-down"
           data-aos-duration="1000"
         >
-          <h2>𝐇𝐢 👋 𝐈'𝐦 𝐚</h2>
+          <h2>𝐇𝐢 👋 𝐈'𝐦 𝐚 👨🏼‍💻</h2>
           <h1>
             <Typewriter
               options={{
