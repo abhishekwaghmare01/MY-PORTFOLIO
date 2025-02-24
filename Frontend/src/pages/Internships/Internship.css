@@ -2,8 +2,9 @@
     padding: 70px 0px;
     margin:50px 0px;
     margin-left: 120px;
-    background-color: rgba(238, 226, 226, 0.514);
+    background:#dbd6d6;
     box-shadow: 0px 4px 8px 0px #757575;
+    color: black;
 }
 
 .intern hr{
@@ -16,7 +17,7 @@
 .intern h2{
     padding-right: 260px;
     font-weight: bold;
-    color: #d3e8e8 ;
+    color: #91a7a7 ;
 }
 .btn-cv{
     background-color: #3baff3;
@@ -24,7 +25,12 @@
 }
 #dark .intern{
     background-color: #a28d8d2b;
+    color: white;
 }
+#dark p{
+    color: white;
+}
+
 
 @media (max-width:600px) {
     .intern{
