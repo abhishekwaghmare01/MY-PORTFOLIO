@@ -21,10 +21,12 @@
 }
 
 .home-buttons .btn-hire{
+  margin-top: 30px;
     background-color: #3baff3;
     width: 110px;
 }
 .home-buttons .btn-cv{
+  margin-top: 30px;
     background-color: #f7ae5b;
     margin-left: 20px;
     width: 110px;
