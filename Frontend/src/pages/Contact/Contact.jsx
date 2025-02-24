@@ -39,9 +39,9 @@ const Contact = () => {
               <div className="card1">
                 <div className="row border-line bgg">
                   <img
-                    src="https://st3.depositphotos.com/1385248/14794/i/450/depositphotos_147947683-stock-photo-hands-with-contact-us-words.jpg"
+                    src="https://user-images.githubusercontent.com/5800726/72228874-7b84ec80-35d0-11ea-82bf-186f352962f0.jpg"
                     alt="contact"
-                    className="image"
+                    className="image" style={{height:"25rem", width:"30rem", marginLeft:"44px", marginBottom:"10px"}}
                   />
                 </div>
               </div>
