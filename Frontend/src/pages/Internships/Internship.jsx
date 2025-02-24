@@ -22,72 +22,87 @@ const Internship = () => {
         <Timeline>
           <TimelineItem
             key="001"
-            dateText="11/2010 – Present"
+            dateText="06/2024 – 12/2024"
             style={{ color: "#e86971" }}
           >
-            <div className="col" style={{color:"white"}}>
-
-            <h3 >Full Stck Web Developer</h3>
-            <h5 style={{}}>Zidio Development PVT. LTD.</h5>
-            <p>
-            Developed a MERN-based Certificate Verification System with seamless front-end and back-end integration.
-
-            </p>
-            <p>
-            Managed MongoDB databases for efficient storage and retrieval.
-            </p>
-            <p>
-            Ensured data security and integrity in all projects.
-            </p>
-            <a className="btn btn-cv " href={abhiCV} download="AbhishekCV.pdf">
-              Certificate
-            </a>
-            
+            <div className="col" >
+              <h3 style={{ color: "yellow" }}>Full Stck Web Developer</h3>
+              <h5 style={{ color: "Highlight" }}>
+                Zidio Development PVT. LTD.
+              </h5>
+              <p>
+                Developed a MERN-based Certificate Verification System with
+                seamless front-end and back-end integration.
+              </p>
+              <p>
+                Managed MongoDB databases for efficient storage and retrieval.
+              </p>
+              <p>Ensured data security and integrity in all projects.</p>
+              <a
+                className="btn btn-cv "
+                href={abhiCV}
+                download="AbhishekCV.pdf"
+              >
+                Certificate
+              </a>
             </div>
           </TimelineItem>
           <TimelineItem
             key="001"
-            dateText="11/2010 – Present"
+            dateText="01/2024 – 06/2024"
             style={{ color: "#e86971" }}
           >
-            <div className="col" style={{color:"white"}}>
-            <h3>Web Developer</h3>
-            <h4>YHills Edutech Pvt. Ltd.</h4>
-            <p>
-            Created a responsive portfolio using HTML, CSS, and JavaScript for cross-device functionality.
-
-            </p>
-            <p>
-            Optimized performance for fast loading and better user experience.
-            </p>
-            <p>
-            Deployed the portfolio online to showcase skills and projects.
-            </p>
-            <a className="btn btn-cv " href={abhiCV} download="AbhishekCV.pdf">
-              Certificate
-            </a>
+            <div className="col" >
+              <h3 style={{ color: "yellow" }}>Web Developer</h3>
+              <h5 style={{ color: "Highlight" }}>YHills Edutech Pvt. Ltd.</h5>
+              <p>
+                Developed and managed three full-stack projects using HTML, CSS,
+                JavaScript, and SQL.
+              </p>
+              <p>
+                Gained hands-on experience with Postman APIs and server
+                deployment.
+              </p>
+              <p>
+                Worked as a Web Developer at YHills EduTech Pvt. Ltd., handling
+                both frontend and backend development.
+              </p>
+              <a
+                className="btn btn-cv "
+                href={abhiCV}
+                download="AbhishekCV.pdf"
+              >
+                Certificate
+              </a>
             </div>
           </TimelineItem>
           <TimelineItem
             key="001"
-            dateText="11/2010 – Present"
+            dateText="06/2023 – 11/2023"
             style={{ color: "#e86971" }}
           >
-            <div className="col" style={{color:"white"}}>
-            <h3>Web Developer</h3>
-            <h4>Cloud Cluster Pvt. Ltd.</h4>
-            <p>
-            Built a responsive Amazon clone using HTML, CSS, and JavaScript with cross-device functionality.
-            </p>
-            <p>
-            Enhanced performance for fast loading and better user experience.
-            </p>
-            <p>
-            Deployed the project online to showcase skills.
-            </p>
-            <a className="btn btn-cv " href={abhiCV} download="AbhishekCV.pdf">
-              Certificate
-            </a>
+            <div className="col" >
+              <h3 style={{ color: "yellow" }}>Web Developer</h3>
+              <h5 style={{ color: "Highlight" }}>Cloud Cluster Pvt. Ltd.</h5>
+              <p>
+                Developed and maintained three web projects using HTML, CSS, and
+                JavaScript.
+              </p>
+              <p>
+                Gained hands-on experience in deploying projects on servers for
+                live production.
+              </p>
+              <p>
+                Worked as a Web Developer at Cloud Cluster Company, ensuring
+                efficient and scalable web solutions.
+              </p>
+              <a
+                className="btn btn-cv "
+                href={abhiCV}
+                download="AbhishekCV.pdf"
+              >
+                Certificate
+              </a>
             </div>
           </TimelineItem>
         </Timeline>
