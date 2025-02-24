@@ -14,7 +14,7 @@
   
   .education h2 {
     font-weight: bold;
-    color: #138781;
+    color: #79cfcb;
   }
   
   .education .vertical-timeline-element-title {
@@ -27,7 +27,9 @@
 
   #dark .education{
     background-color: #a28d8d2b;
-    
+  }
+  #dark p{
+    color: black;
   }
 
 
