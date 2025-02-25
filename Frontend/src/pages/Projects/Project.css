@@ -47,6 +47,7 @@
 .card-image-overly span{
     display: inline-block;
     margin-left: 5px;
+    
 }
 .project .card:hover{
     background-color: white;
