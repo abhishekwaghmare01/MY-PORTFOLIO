@@ -29,7 +29,7 @@ const Project = () => {
                     <div className="card-body text-center ">
                         <div className="ad-title m-auto">
                             <h5 className="text-uppercase ">
-                                Certificate management system
+                            MeetEasy App
                             </h5>
                         </div>
                         <a href="#" className='ad-btn'>View</a>
