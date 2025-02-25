@@ -23,6 +23,7 @@ const Project = () => {
                     <div className="card-image-overly m-auto mt-3">
                         <span className="card-detail-badge">NodeJS</span>
                         <span className="card-detail-badge">ReactJs</span>
+                        <span className="card-detail-badge">Socket.io</span>
                         <span className="card-detail-badge">ExpressJS</span>
                         <span className="card-detail-badge">MongoDB</span>
                     </div>
@@ -53,7 +54,7 @@ const Project = () => {
                     <div className="card-body text-center ">
                         <div className="ad-title m-auto">
                             <h5 className="text-uppercase ">
-                                Certificate management system
+                            My Prosonal Portfolio
                             </h5>
                         </div>
                         <a href="#" className='ad-btn'>View</a>
