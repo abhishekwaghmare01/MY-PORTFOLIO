@@ -41,13 +41,13 @@
     text-align: center;
     border-radius: 10px;
     padding: 5px 10px;
+   margin-top: 10px;
     font-size: 14px;
     color: rgb(6, 5, 5);
 }
 .card-image-overly span{
     display: inline-block;
     margin-left: 5px;
-    
 }
 .project .card:hover{
     background-color: white;
