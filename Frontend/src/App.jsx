@@ -18,7 +18,7 @@ export default function App() {
   return (
     <>
       <div id={theme}>
-        <ScrollToTop/>
+        <ScrollToTop style={{marginRight:"100px"}}/>
         <ToastContainer />
         <MobileNav />
         <Layout />
