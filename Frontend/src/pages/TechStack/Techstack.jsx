@@ -18,7 +18,7 @@ const Techstack = () => {
         <hr />
         <p className="pb-3 text-center">
           👉 including programming languages,frameworks, database, frontend,
-          backend, and API's
+          backend, and API's. 
         </p>
 
         <div className="row">
