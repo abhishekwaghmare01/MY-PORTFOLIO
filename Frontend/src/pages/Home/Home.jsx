@@ -6,7 +6,6 @@ import abhiCV from "../../assets/docs/abhiCV.pdf";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { FaSun } from "react-icons/fa";
 
-
 const Home = () => {
   const [theme, setTheme] = useTheme();
   //handle theme
@@ -15,10 +14,12 @@ const Home = () => {
   };
   return (
     <>
-    
       <div className="container-fluid home-container  " id="home">
-      
-        <div className="theme-btn" onClick={handleTheme}>
+        <div
+          className="theme-btn"
+          style={{ marginRight: "130px" }}
+          onClick={handleTheme}
+        >
           {theme === "light" ? <FaSun /> : <BsMoonStarsFill />}
         </div>
         <div
