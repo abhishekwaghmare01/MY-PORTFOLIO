@@ -6,6 +6,7 @@ import Img from "/src/Images/Profile_photo.jpg";
 const About = () => {
   return (
     <>
+    
       <div
         className="about"
         id="about"
