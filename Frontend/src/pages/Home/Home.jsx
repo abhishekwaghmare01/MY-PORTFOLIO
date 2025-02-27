@@ -35,7 +35,7 @@ const Home = () => {
                   "Full Stack Web Developer !",
                   "Full Stack JAVA Developer !",
                   "MERN Stack Developer !",
-                  "MEAN Stack Developer !",
+                  "MEAN Stack Developer !"
                 ],
                 autoStart: true,
                 loop: true,
