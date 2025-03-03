@@ -2,13 +2,13 @@
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 87%;
     z-index: 1;
   }
   
   .mobile-nav-header {
     height: 50px;
-    width: 87%;
+    width: 99.60%;
     background-color: #1e1e1e;
     padding: 8px;
   }
