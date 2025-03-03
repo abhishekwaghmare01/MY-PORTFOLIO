@@ -62,4 +62,7 @@
     .home-container h1 {
       font-size: 24px;
     }
+    .theme-btn{
+      margin-right: 100px;
+    }
   }
