@@ -17,7 +17,7 @@ const Home = () => {
       <div className="container-fluid home-container  " id="home">
         <div
           className="theme-btn"
-          style={{ marginRight: "130px" }}
+         
           onClick={handleTheme}
         >
           {theme === "light" ? <FaSun /> : <BsMoonStarsFill />}
