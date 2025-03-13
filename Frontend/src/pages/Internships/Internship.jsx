@@ -25,7 +25,36 @@ const Internship = () => {
             dateText="06/2024 – 12/2024"
             style={{ color: "#e86971" }}
           >
-            <div className="col" >
+            <div className="col">
+              <h3 style={{ color: "yellow" }}>Full Stck JAVA Developer</h3>
+              <h5 style={{ color: "Highlight" }}>
+                Zidio Development PVT. LTD.
+              </h5>
+              <p>
+                Developed a MERN-based Certificate Verification System with
+                seamless front-end and back-end integration.
+              </p>
+              <p>
+                Managed MongoDB databases for efficient storage and retrieval.
+              </p>
+              <p>Ensured data security and integrity in all projects.</p>
+              <div className="home-buttons">
+                <a
+                  className="btn btn-cv "
+                  href={abhiCV}
+                  download="AbhishekCV.pdf"
+                >
+                  Certificate
+                </a>
+              </div>
+            </div>
+          </TimelineItem>
+          <TimelineItem
+            key="001"
+            dateText="06/2024 – 12/2024"
+            style={{ color: "#e86971" }}
+          >
+            <div className="col">
               <h3 style={{ color: "yellow" }}>Full Stck Web Developer</h3>
               <h5 style={{ color: "Highlight" }}>
                 Zidio Development PVT. LTD.
@@ -38,13 +67,15 @@ const Internship = () => {
                 Managed MongoDB databases for efficient storage and retrieval.
               </p>
               <p>Ensured data security and integrity in all projects.</p>
-              <a
-                className="btn btn-cv "
-                href={abhiCV}
-                download="AbhishekCV.pdf"
-              >
-                Certificate
-              </a>
+              <div className="home-buttons">
+                <a
+                  className="btn btn-cv "
+                  href={abhiCV}
+                  download="AbhishekCV.pdf"
+                >
+                  Certificate
+                </a>
+              </div>
             </div>
           </TimelineItem>
           <TimelineItem
@@ -52,7 +83,7 @@ const Internship = () => {
             dateText="01/2024 – 06/2024"
             style={{ color: "#e86971" }}
           >
-            <div className="col" >
+            <div className="col">
               <h3 style={{ color: "yellow" }}>Web Developer</h3>
               <h5 style={{ color: "Highlight" }}>YHills Edutech Pvt. Ltd.</h5>
               <p>
@@ -67,13 +98,15 @@ const Internship = () => {
                 Worked as a Web Developer at YHills EduTech Pvt. Ltd., handling
                 both frontend and backend development.
               </p>
-              <a
-                className="btn btn-cv "
-                href={abhiCV}
-                download="AbhishekCV.pdf"
-              >
-                Certificate
-              </a>
+              <div className="home-buttons">
+                <a
+                  className="btn btn-cv "
+                  href={abhiCV}
+                  download="AbhishekCV.pdf"
+                >
+                  Certificate
+                </a>
+              </div>
             </div>
           </TimelineItem>
           <TimelineItem
@@ -81,7 +114,7 @@ const Internship = () => {
             dateText="06/2023 – 11/2023"
             style={{ color: "#e86971" }}
           >
-            <div className="col" >
+            <div className="col">
               <h3 style={{ color: "yellow" }}>Web Developer</h3>
               <h5 style={{ color: "Highlight" }}>Cloud Cluster Pvt. Ltd.</h5>
               <p>
@@ -96,13 +129,15 @@ const Internship = () => {
                 Worked as a Web Developer at Cloud Cluster Company, ensuring
                 efficient and scalable web solutions.
               </p>
-              <a
-                className="btn btn-cv "
-                href={abhiCV}
-                download="AbhishekCV.pdf"
-              >
-                Certificate
-              </a>
+              <div className="home-buttons">
+                <a
+                  className="btn btn-cv "
+                  href={abhiCV}
+                  download="AbhishekCV.pdf"
+                >
+                  Certificate
+                </a>
+              </div>
             </div>
           </TimelineItem>
         </Timeline>
