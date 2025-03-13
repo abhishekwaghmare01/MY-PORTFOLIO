@@ -6,6 +6,17 @@
     box-shadow: 0px 4px 8px 0px #757575;
     color: black;
 }
+.home-buttons .btn-hire{
+    margin-top: 30px;
+      background-color: #3baff3;
+      width: 110px;
+  }
+  .home-buttons .btn-cv{
+    margin-top: 30px;
+      background-color: #f7ae5b;
+      margin-left: 20px;
+      width: 110px;
+  }
 
 .intern hr{
     padding-left: 230px;
