@@ -30,12 +30,8 @@ const Internship = () => {
               <h5 style={{ color: "Highlight" }}>
                 Zidio Development PVT. LTD.
               </h5>
-              <p>
-                
-              </p>
-              <p>
-                Managed MongoDB databases for efficient storage and retrieval.
-              </p>
+              <p></p>
+              <p></p>
               <p>Ensured data security and integrity in all projects.</p>
               <div className="home-buttons">
                 <a
