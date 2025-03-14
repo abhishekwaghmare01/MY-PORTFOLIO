@@ -31,8 +31,7 @@ const Internship = () => {
                 Zidio Development PVT. LTD.
               </h5>
               <p>
-                Developed a MERN-based Certificate Verification System with
-                seamless front-end and back-end integration.
+                
               </p>
               <p>
                 Managed MongoDB databases for efficient storage and retrieval.
