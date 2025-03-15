@@ -43,6 +43,29 @@ const Project = () => {
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Full Stack Project</span>
+                <img src={img} />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <span className="card-detail-badge">NodeJS</span>
+                <span className="card-detail-badge">ReactJs</span>
+                <span className="card-detail-badge">Socket.io</span>
+                <span className="card-detail-badge">ExpressJS</span>
+                <span className="card-detail-badge">MongoDB</span>
+              </div>
+              <div className="card-body text-center ">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase ">MeetEasy App</h5>
+                </div>
+                <a href="#" className="ad-btn">
+                  View
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full Stack Project</span>
                 <img
                   src={img1}
                   alt="project1"
