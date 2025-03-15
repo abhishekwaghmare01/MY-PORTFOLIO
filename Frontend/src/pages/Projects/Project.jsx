@@ -66,10 +66,7 @@ const Project = () => {
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Full Stack Project</span>
-                <img
-                  src={img1}
-                  alt="project1"
-                />
+                <img src={img1} alt="project1" />
               </div>
               <div className="card-image-overly m-auto mt-3">
                 <span className="card-detail-badge">NodeJS</span>
@@ -87,7 +84,7 @@ const Project = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4" style={{ paddingTop: "28px" }}>
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Full Stack Project</span>
