@@ -94,15 +94,14 @@ const Project = () => {
                 />
               </div>
               <div className="card-image-overly m-auto mt-3">
-                <span className="card-detail-badge">NodeJS</span>
-                <span className="card-detail-badge">ReactJs</span>
-                <span className="card-detail-badge">ExpressJS</span>
-                <span className="card-detail-badge">MongoDB</span>
+                <span className="card-detail-badge">JAVA</span>
+                <span className="card-detail-badge">Hibernate</span>
+                <span className="card-detail-badge">MySQL</span>
               </div>
               <div className="card-body text-center ">
                 <div className="ad-title m-auto">
                   <h5 className="text-uppercase ">
-                    Inventary management system
+                    Inventary Management system
                   </h5>
                 </div>
                 <a href="#" className="ad-btn">
