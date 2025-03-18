@@ -113,7 +113,9 @@ const Project = () => {
           <div className="col-md-4" style={{ paddingTop: "28px" }}>
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Full Stack Project</span>
+                <span className="card-notify-badge">
+                  Full Stack JAVA Project
+                </span>
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SuuNrgIeWk_TlxfGyGG85zFTMes2cKxHsg&s"
                   alt="project1"
@@ -139,7 +141,9 @@ const Project = () => {
           <div className="col-md-4" style={{ paddingTop: "28px" }}>
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Full Stack Project</span>
+                <span className="card-notify-badge">
+                  Full Stack JAVA Project
+                </span>
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SuuNrgIeWk_TlxfGyGG85zFTMes2cKxHsg&s"
                   alt="project1"
