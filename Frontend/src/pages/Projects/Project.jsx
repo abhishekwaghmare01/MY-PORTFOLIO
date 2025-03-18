@@ -95,7 +95,7 @@ const Project = () => {
               </div>
               <div className="card-image-overly m-auto mt-3">
                 <span className="card-detail-badge">JAVA</span>
-                <span className="card-detail-badge">Hibernate</span>
+                <span className="card-detail-badge">JDBC</span>
                 <span className="card-detail-badge">MySQL</span>
               </div>
               <div className="card-body text-center ">
@@ -128,7 +128,7 @@ const Project = () => {
               <div className="card-body text-center ">
                 <div className="ad-title m-auto">
                   <h5 className="text-uppercase ">
-                    Certificate management system
+                    Smart City Management System
                   </h5>
                 </div>
                 <a href="#" className="ad-btn">
