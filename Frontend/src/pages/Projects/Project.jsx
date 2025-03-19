@@ -153,10 +153,11 @@ const Project = () => {
                 <span className="card-detail-badge">JAVA</span>
                 <span className="card-detail-badge">SpringBoot</span>
                 <span className="card-detail-badge">MySQL</span>
+                <span className="card-detail-badge">Postman Api</span>
               </div>
               <div className="card-body text-center ">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase ">CARELOCATOR</h5>
+                  <h5 className="text-uppercase ">Inventory</h5>
                 </div>
                 <a href="#" className="ad-btn">
                   View
